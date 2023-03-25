@@ -1,0 +1,150 @@
+#header-logo{
+	height: 40px !important;
+	width: 197px !important;
+	display: block;
+	object-fit: contain;
+}
+
+#top-nav{
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#top-nav .nav-main{
+	display: flex;
+	gap: 64px;
+	align-items: center;
+}
+
+#top-nav .nav-links{
+	display: flex;
+	gap: 32px;
+	align-items: center;
+}
+
+#hero{
+	margin-top: 48px;
+	gap:16px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: relative;
+}
+
+#scroll-down-btn img{
+	display: block;
+}
+
+#scroll-down-btn{
+	padding: 16px;
+	background: var(--white);
+	border: 1px solid var(--dark-blue);
+	border-radius: 50%;
+
+	position: absolute;
+	bottom: 48px;
+}
+
+.blured-dot{
+	width: 500px;
+	height: 500px;
+	background: #1992E3;
+	filter: blur(256px);
+	opacity: 0.2;
+	position: absolute;
+	z-index: -1;
+}
+
+#block-1{
+	margin-top: 24px;
+	margin-bottom: 24px;
+	display: flex;
+	gap: 20px;
+}
+
+#block-1 .flex-grow{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 100px;
+}
+
+.vertical-line{
+	width: 1px;
+	height: fill;
+	background: var(--dark-blue);
+}
+
+#block-2{
+	margin-top: 64px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 24px 64px;
+	gap: 40px;
+
+	background: linear-gradient(180deg, #143651 0%, #315A7A 100%);
+	border-radius: 32px;
+}
+
+.services-block{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+}
+
+.services-block > *{
+	align-self: stretch;	
+}
+
+.services-header{
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 12px;
+}
+
+.services-header *{
+	align-self: stretch;
+}
+
+.services-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	gap: 8px;
+}
+
+.services-item > .header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 12px;
+	align-self: stretch;
+}
+
+.services-item > .description{
+	padding: 0px 0px 0px 41px;
+	align-self: stretch;
+}
+
+#block-3{
+	margin-top: 64px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 24px 64px;
+	gap: 40px;
+
+	background: #E9F4FC;
+	border-radius: 32px;
+}
