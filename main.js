@@ -1,7 +1,7 @@
 var sequencePath = 'src/MainAnim/';
 var sequenceNumberLength = 4;
 var fileName = '';
-var fileSuffix = '.png';
+var fileSuffix = '-min.png';
 
 var targetElement = document.getElementById('main-anim');
 
