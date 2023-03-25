@@ -1,4 +1,4 @@
-var sequencePath = 'src/MainAnim/';
+var sequencePath = 'https://kolpakovk.github.io/LabSense/src/MainAnim/';
 var sequenceNumberLength = 4;
 var fileName = '';
 var fileSuffix = '-min.png';
